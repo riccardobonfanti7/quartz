@@ -13,4 +13,4 @@ Le macchine virtuali offrono numerosi vantaggi, tra cui:
 - **Facilità di Backup e Ripristino**: Le macchine virtuali possono essere facilmente salvate e replicate tramite snapshot, rendendo il backup e il ripristino semplici e veloci.
   
 
-Qui potrai trovare un esempio di [[installazione di una macchina virtuale]].
+Qui potrai trovare un esempio di [[installazione VM]].

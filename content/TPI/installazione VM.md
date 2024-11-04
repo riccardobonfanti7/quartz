@@ -1,4 +1,3 @@
-
 # Prerequisiti
 
 1. **Computer con Risorse Adeguate**: Assicurati che il tuo computer abbia sufficienti risorse hardware (CPU, RAM e spazio su disco) per eseguire una macchina virtuale.
