@@ -14,10 +14,13 @@ A un **processo** sono associati:
 Processo chiamato **padre** può generare copie di se stesso chiamate **processi figli.**
 
 >Processo per essere eseguito deve essere allocato in memoria centrale (RAM).
+>Deve risiedere in una area di RAM sufficientemente grande e contigua
 
+Qui puoi trovare le varie [[Tecniche di gestione della memoria]].
 
 Un processo può essere rimosso dalla memoria e trasferito su disco(swap out) per permettere l’esecuzione di un altro processo che richiede più memoria RAM e in seguito riportarlo in memoria (swap in) per proseguire l’esecuzione.
 
+> Lo **scambio di contesto** (contex-switching) avviene quando il **sistema operativo interrompe l'esecuzione di un processo** (per esempio, per dare spazio a un altro processo) e **salva lo stato del processo corrente** per poterlo riprendere in un momento successivo e così la CPU passa ad eseguire un altro processo.
 ### Swap Out
 
 - **Obiettivo**: L'operazione di swap out viene eseguita quando la RAM non ha spazio sufficiente per ospitare tutti i processi attivi. Questo può accadere quando:
